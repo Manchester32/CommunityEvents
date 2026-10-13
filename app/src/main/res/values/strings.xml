@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Community Connect</string>
+    <!-- Replace these FOUR values using Project settings in Firebase console. -->
+    <string name="firebase_app_id">YOUR_FIREBASE_APP_ID</string>
+    <string name="firebase_api_key">YOUR_FIREBASE_WEB_API_KEY</string>
+    <string name="firebase_project_id">YOUR_FIREBASE_PROJECT_ID</string>
+    <string name="firebase_storage_bucket">YOUR_FIREBASE_STORAGE_BUCKET</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F3F8F6" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="22dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add an Event" android:textColor="#124F49" android:textStyle="bold" android:textSize="26sp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Enter the event details below" android:textColor="#536963" android:layout_marginBottom="18dp" />
+    <EditText android:id="@+id/titleInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Event title *" android:inputType="textCapSentences" />
+    <EditText android:id="@+id/dateInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Date (e.g. 2026-10-14) *" android:inputType="date" />
+    <EditText android:id="@+id/locationInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Location *" android:inputType="textCapWords" />
+    <EditText android:id="@+id/descriptionInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Description *" android:minLines="3" android:gravity="top" android:inputType="textMultiLine" />
+    <Button android:id="@+id/pickImageButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Choose event image (optional)" android:textAllCaps="false" android:backgroundTint="#427D9B" />
+    <ImageView android:id="@+id/imagePreview" android:layout_width="match_parent" android:layout_height="180dp" android:layout_marginTop="8dp" android:scaleType="centerCrop" android:contentDescription="Chosen event image" android:visibility="gone" />
+    <Button android:id="@+id/saveButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save Event Online" android:textAllCaps="false" android:layout_marginTop="14dp" android:backgroundTint="#166B61" />
+    <TextView android:id="@+id/addStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#536963" android:paddingTop="12dp" />
+</LinearLayout>
+</ScrollView>

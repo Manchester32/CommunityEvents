@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.CommunityConnect" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">#166B61</item><item name="android:statusBarColor">#124F49</item>
+        <item name="android:navigationBarColor">#FFFFFF</item><item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

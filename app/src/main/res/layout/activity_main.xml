@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F3F8F6" android:padding="20dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Community Connect" android:textStyle="bold" android:textColor="#124F49" android:textSize="27sp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Find and share events near you" android:textColor="#536963" android:layout_marginBottom="18dp" android:textSize="15sp" />
+    <Button android:id="@+id/addEventButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="+ Add Community Event" android:textAllCaps="false" android:backgroundTint="#166B61" />
+    <Button android:id="@+id/apiButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Test Public REST API" android:textAllCaps="false" android:backgroundTint="#427D9B" />
+    <Button android:id="@+id/localApiButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Test My Visual Studio API" android:textAllCaps="false" android:backgroundTint="#6B638F" />
+    <TextView android:id="@+id/apiResult" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="REST API: tap Test REST API to fetch sample data" android:textColor="#536963" android:padding="8dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Upcoming events" android:textSize="20sp" android:textStyle="bold" android:textColor="#124F49" android:layout_marginTop="12dp" android:layout_marginBottom="8dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:id="@+id/eventsContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+    </ScrollView>
+    <TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Loading events..." android:textColor="#536963" android:paddingTop="10dp" />
+</LinearLayout>
